@@ -1,0 +1,76 @@
+// validate zipcode
+    	addZip.textProperty().addListener((observable, oldValue, newValue) -> {
+    		
+    	    if(!newValue.matches("[0-9]*"))
+    	    {
+    	        errorZipMsg.setText("Please Enter ony numbers");
+    	        errorZipMsg.setVisible(true);
+    	    }
+    	    else if (newValue.isEmpty())
+    	    {
+    	    	errorZipMsg.setVisible(false);
+    	    }
+    	    else if (newValue.length() > 5)
+    	    {
+    	    	errorZipMsg.setText("Enter only 5 digits");
+    	    	errorZipMsg.setVisible(true);
+    	    }
+    	    else 
+    	    {
+    	    	errorZipMsg.setVisible(false);
+    	    }
+    	    
+    	});
+
+//Validate City
+        addCity.textProperty().addListener((observable, oldValue, newValue) -> {
+    		
+    	    if(!newValue.matches("[a-zA-Z\\s]*"))
+    	    {
+    	        errorCityMsg.setText("Please enter only alphabets"); // allow capital & small letter & space
+    	        errorCityMsg.setVisible(true);
+    	    }
+    	    else if (newValue.isEmpty())
+    	    {
+    	    	errorCityMsg.setVisible(false);
+    	    }
+    	    else
+    	    {
+    	    	errorCityMsg.setVisible(false);
+    	    }
+    	});
+
+//Validate Country
+        addCountry.textProperty().addListener((observable, oldValue, newValue) -> {
+    		
+    	    if(!newValue.matches("[a-zA-Z\\s]*")) // allow capital & small letter & space
+    	    {
+    	        errorCountryMsg.setText("Please enter only Alphabets");
+    	        errorCountryMsg.setVisible(true);
+    	    }
+    	    else if (newValue.isEmpty())
+    	    {
+    	    	errorCountryMsg.setVisible(false);
+    	    }
+    	    else
+    	    {
+    	    	errorCountryMsg.setVisible(false);
+    	    }
+    	   
+    	});
+
+//Validate email
+    	
+    	 addEmail.textProperty().addListener((observable, oldValue, newValue) -> {
+     		
+     	    if(!newValue.matches("([a-zA-Z0-9][a-zA-Z0-9._]*@[a-zA-Z0-9]+([.][a-zA-Z]+)+)") && !newValue.isEmpty()) 
+     	    {
+     	        errorEmailMsg.setText("Please enter email like ------@----.----");
+     	        errorEmailMsg.setVisible(true);
+     	    }
+     	    else
+     	    {
+     	    	errorEmailMsg.setVisible(false);
+     	    }
+     	    
+    	 });

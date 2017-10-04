@@ -1,0 +1,145 @@
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE visittype = 'Business'
+
+SELECT SUM(visitornum)FROM visitorinformationtable WHERE visittype = 'Pleasure'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE visittype = 'Other'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE visitornum <= 5
+
+SELECT COUNT (*) FROM visitorinformationtable WHERE visitornum >5 AND <=10 
+
+SELECT COUNT (*) FROM visitorinformationtable WHERE visitornum > 10
+
+SELECT SUM(visitornum) FFROM visitorinformationtable WHERE hotelstay = 'Yes'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE hotelstay = 'No'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 01
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 02
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 03
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 04
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 05
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 06
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 07
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 08
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 09
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 10
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 11
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 12 
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE zip = VARIABLENAME
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE city = VARIABLENAME
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = VARIABLENAEM
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Alabama'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Alaska'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Arizona'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Arkansas'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Claifornia'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Colorado'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Connecticut'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Delaware'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Florida'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Georgia'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Hawaii'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Idaho'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Illinois'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Indiana'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Iowa'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Kansas'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Kentucky'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Louisiana'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Maine'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Maryland'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Massachusetts'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Michigan'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Minnesota'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Mississippi'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Missouri'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Montana'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Nebraska'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Nevada'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'New Hampshire'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'New Jersey'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'New Mexico'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'New York'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'North Carolina'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'North Dakota'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Ohio'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Oklahoma'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Oregon'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Pennsylvania'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Rhode Island'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'South Carolina'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'South Dakota'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Tennessee'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Texas'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Utah'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Vermont'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Virginia'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Washington'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'West Virginia'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Wisconsin'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'Wyoming' 

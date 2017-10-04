@@ -1,0 +1,139 @@
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE visittype = 'Business'
+
+SELECT SUM(visitornum)FROM visitorinformationtable WHERE visittype = 'Pleasure'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE visittype = 'Other'
+
+SELECT SUM(visitornum) FFROM visitorinformationtable WHERE hotelstay = 'Yes'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE hotelstay = 'No'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 01
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 02
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 03
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 04
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 05
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 06
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 07
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 08
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 09
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 10
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 11
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE (SELECT EXTRACT(month FROM timestamp)) = 12 
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE zip = VARIABLENAME
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE city = VARIABLENAME
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = VARIABLENAEM
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'AL' 
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'AK' 
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'AZ'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'AR'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'CA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'CO'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'CT'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'DE'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'FL'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'GA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'HI'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'ID'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'IL'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'IN'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'IA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'KS'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'KY'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'LA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'ME'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MD'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MI'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MN'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MS'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MO'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'MT'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NE'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NV'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NH'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NJ'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NM'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NY'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'NC'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'ND'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'OH'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'OK'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'OR'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'PA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'RI'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'SC'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'SC'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'TN'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'TX'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'UT'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'VT'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'VA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'WA'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'WV'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'WI'
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE state = 'WY' 

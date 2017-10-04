@@ -1,0 +1,9 @@
+SELECT COUNT(*) FROM visitorinformationtable WHERE visitornum <= 5
+
+SELECT COUNT(*) FROM visitorinformationtable WHERE visitornum >5 AND <=10 
+
+SELECT COUNT(*) FROM visitorinformationtable WHERE visitornum > 10
+
+SELECT SUM(visitornum) FROM visitorinformationtable WHERE country = VARIABLE NAME
+
+//here is one more query and a couple of corrected queries

@@ -1,0 +1,15 @@
+CREATE TABLE `visitorinformationtable` (
+  `zipcode` int(11) NOT NULL,
+  `city` varchar(45) NOT NULL,
+  `state` varchar(45) NOT NULL,
+  `country` varchar(45) NOT NULL,
+  `latitude` decimal(10,8) DEFAULT NULL,
+  `longitude` decimal(11,8) DEFAULT NULL,
+  `visittype` varchar(45) DEFAULT NULL,
+  `visitdescription` varchar(45) DEFAULT NULL,
+  `visitornum` int(11) DEFAULT NULL,
+  `hotelstay` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `timestamp` datetime NOT NULL,
+  PRIMARY KEY (`timestamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
